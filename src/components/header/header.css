@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative; 
-    background-color: aqua;
+    background-color: #607466;
     padding-right: 60px;
     width: 100%;    
 }
@@ -62,7 +62,8 @@
 }
 
 .Logo{
-    background-color: rgb(0, 153, 255);;
+    background-color: #343e3d;
+    color: white;
     width: 17%;
     padding-left: 40px;
     margin-left: -40px;
