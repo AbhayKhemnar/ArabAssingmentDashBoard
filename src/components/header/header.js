@@ -14,7 +14,7 @@ function Header() {
             <span >AK private Ltd</span>
         </div>
         <div className='DropDown'>
-           <MdArrowDropDown onClick={()=>setISDropDown(!isDropDown)}/>//work as a toggle button chnage the state so we can display diffrent class on click
+           <MdArrowDropDown onClick={()=>setISDropDown(!isDropDown)}/> {/* //work as a toggle button chnage the state so we can display diffrent class on click */}
         </div>
         
      </div> 

@@ -9,7 +9,7 @@ import './leftSection.css'
 function LeftSection() {
    const [isactivels , setActivels]=useState("DashBoard")//useState to change the sate so we can change the class of ls
    function handlels(ls){  
-   setActivels(ls) //this we change the value of isactive 
+    setActivels(ls) //this we change the value of isactive 
    }
    
   return (
@@ -21,7 +21,8 @@ function LeftSection() {
          </div>
          <div className='pages'>
             
-             <ls onClick={()=>handlels("DashBoard")} className={isactivels==="DashBoard"?"ActiveLS":""}>//we will pass "DashBoard" as a argument 
+             <ls onClick={()=>handlels("DashBoard")} className={isactivels==="DashBoard"?"ActiveLS":""}>{/* //we will pass "DashBoard" as a argument  */}
+                
                 <LuLayoutDashboard/>DashBoard
 
             </ls>
