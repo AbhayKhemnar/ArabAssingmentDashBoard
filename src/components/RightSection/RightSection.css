@@ -188,4 +188,8 @@
     .bottom-left, .bottom-right{
         width: 100%;
     }
+    .top-sec{
+        display: flex;
+        flex-direction: column;
+    }
 }

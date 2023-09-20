@@ -83,3 +83,9 @@
 .ActiveLS{
     background-color: rgb(123, 205, 232)
 }
+
+@media (max-width:768px){
+    .leftsection{
+        display: none;
+    }
+}

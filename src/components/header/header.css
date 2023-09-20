@@ -74,3 +74,21 @@
 .Logo h1{
     transform: skewX(35deg);
 }
+
+@media (max-width:768px){
+    .Logo{
+        width: 30%;
+        transform: skewX(-25deg);
+    }
+    .Logo h1{
+        transform: skewX(25deg);
+    }
+    .HeaderRight{
+        display: flex;
+        flex-direction:column ;
+    }
+    .DropDown svg{
+        height: 25;
+        width: 25;
+    }
+}
